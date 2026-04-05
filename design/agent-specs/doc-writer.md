@@ -54,6 +54,7 @@ The doc-writer operates in 4 modes (create, update, supplement, fix) that handle
 | `finishing-work` | The doc-writer is part of the finishing-work skill's documentation phase. This skill governs when documentation is generated (after implementation is complete, not before) and what documentation is required for a milestone to be considered done. |
 | `context-management` | Governs how much codebase content the doc-writer explores during fact-gathering. Large projects can exhaust context during exploration; degradation tiers guide when to write with available facts rather than continuing to explore. |
 | `knowledge-management` | Directs the doc-writer to check KNOWLEDGE.md for project-specific conventions, gotchas, and setup requirements that should be reflected in documentation. |
+| `writing-skills` | When the doc-writer generates or updates skill behavioral specifications (SKILL.md files), it follows the TDD-for-skills methodology: define pressure scenarios, observe behavior, write the skill specification, verify coverage, and close loopholes. This ensures skill documentation is tested against real scenarios rather than written speculatively. |
 
 ### Active Iron Laws
 

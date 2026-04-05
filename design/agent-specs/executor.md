@@ -56,6 +56,7 @@ The executor is the methodology's primary code-producing agent. Its output is su
 | `test-driven-development` | When tasks are marked `tdd="true"`, the executor follows the RED → GREEN → REFACTOR cycle. Tests are written before implementation, run to confirm failure (RED), then implementation is written to pass them (GREEN). |
 | `systematic-debugging` | When execution encounters failures, the executor follows root-cause-first investigation rather than guess-and-check thrashing. The 12 red flags from the debugging skill signal when the executor is stuck. |
 | `context-management` | Tracks context budget consumption during execution. At degradation thresholds, the executor adjusts behavior (shorter read passes, focused investigation) rather than producing low-quality output. |
+| `frontend-design` | When tasks involve UI implementation, the executor follows component architecture patterns, accessibility requirements, and visual polish guidelines defined by this skill. Ensures frontend work meets design quality standards rather than producing unstyled scaffolding. |
 
 ### Active Iron Laws
 

@@ -72,6 +72,7 @@ The orchestrator does NOT write code, generate documentation, run tests, or prod
 | `parallel-dispatch` | Governs when and how to dispatch parallel subagents: independence criteria (no shared file mutations), prompt structure (context enrichment protocol), result collection (completion marker parsing). |
 | `context-management` | Tracks the orchestrator's own context budget. The orchestrator manages multiple waves and must checkpoint if its context degrades — losing coordination state mid-milestone is worse than pausing to resume fresh. |
 | `using-methodology` | The meta-skill that governs overall methodology adherence. The orchestrator enforces methodology compliance on spawned agents by injecting behavioral specifications into their prompts. |
+| `git-worktree-management` | Governs worktree isolation for parallel execution: directory selection, safety verification (ensuring worktrees are clean before reuse), auto-detection of project type, and baseline test execution. The orchestrator creates and manages worktrees when dispatching parallel agents to prevent file-system conflicts. |
 
 ### Active Iron Laws
 
