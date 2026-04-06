@@ -1,0 +1,19 @@
+{
+  "name": "unified-methodology",
+  "description": "Unified development methodology plugin: 18 skills, 12 agents, 10 references for structured software development",
+  "version": "1.0.0",
+  "author": {
+    "name": "Unified Methodology"
+  },
+  "license": "MIT",
+  "keywords": [
+    "methodology",
+    "skills",
+    "agents",
+    "tdd",
+    "verification",
+    "debugging",
+    "planning",
+    "collaboration"
+  ]
+}
